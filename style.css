@@ -1,27 +1,109 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
-.navigation ul{
+.navigation ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #0aa9b3;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px ;
+    padding: 0 100px;
     font-weight: 700;
 }
 
-.navigation li a{
+.navigation li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.title {
+    display: flex;
+    padding: 20px 0;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #000 solid 0.5px;
+}
+
+.title h1 {
+    margin-left: 20px;
+}
+
+.instruction {
+    padding: 20px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: #15adb6;
+    padding: 20px;
+    border: #9d9d9d solid 1px;
+}
+
+.form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: #9d9d9d solid 1px;
+
+}
+
+.form input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: #9d9d9d solid 1px;
+    background-color: #15adb6;
+    color: #fff;
+    font-weight: 700;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #15adb6;
+    cursor: pointer;
+}
+
+.form input[type="button"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: #9d9d9d solid 1px;
+    font-weight: 700;
+}
+
+.form input[type="button"]:hover {
+    background-color: #fff;
+    color: #15adb6;
+    cursor: pointer;
+}
+
+.form-title {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: #15adb6;
+    border: #9d9d9d solid 1px;
+    border-bottom: none;
 }
