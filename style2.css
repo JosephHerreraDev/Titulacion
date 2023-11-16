@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navigation ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #0aa9b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    font-weight: 700;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.title {
+    display: flex;
+    padding: 20px 0;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #000 solid 0.5px;
+}
+
+.title h1 {
+    margin-left: 20px;
+}
+
+.instruction {
+    padding: 20px;
+    text-align: center;
+}
+
+.sign-in {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    width: 550px;
+    top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    color: #000000;
+    padding: 20px;
+    border: #9d9d9d solid 1px;
+}
+
+
+.form-title {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: #15adb6;
+    border: #9d9d9d solid 1px;
+    border-bottom: none;
+}
+
+#titulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#name{
+    margin-top: 20px;
+}
+label{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.rastreador {
+    float: right;
+    padding-bottom: 30px;
+    align-items: flex-start;
+    
+}
+
+.estado {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.casilla {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: #3498db solid 1px;
+    margin-right: 10px;
+}
+
+.linea {
+    width: 2px;
+    height: 50px;
+    background-color: #0aa9b3;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info p {
+    margin: 0;
+}
+
+.activo .casilla {
+    background-color: #a9d4d8; 
+    border: 1.5px solid #0aa9b3; 
+}
+
+#title-estado{
+    color: #0aa9b3 ;
+}
+#text-estado{
+    font-size: 14px;
+}
